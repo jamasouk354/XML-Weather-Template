@@ -31,8 +31,8 @@
             this.forecastLabel = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.timeLabel = new System.Windows.Forms.Label();
-            this.con3Label = new System.Windows.Forms.Label();
-            this.date3Label = new System.Windows.Forms.Label();
+            this.con3 = new System.Windows.Forms.Label();
+            this.date3 = new System.Windows.Forms.Label();
             this.cityLabel = new System.Windows.Forms.Label();
             this.min3 = new System.Windows.Forms.Label();
             this.minLabel = new System.Windows.Forms.Label();
@@ -40,15 +40,15 @@
             this.maxLabel = new System.Windows.Forms.Label();
             this.day3 = new System.Windows.Forms.Label();
             this.day2 = new System.Windows.Forms.Label();
-            this.con2Label = new System.Windows.Forms.Label();
-            this.date2Label = new System.Windows.Forms.Label();
+            this.con2 = new System.Windows.Forms.Label();
+            this.date2 = new System.Windows.Forms.Label();
             this.min2 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.max2 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.day1 = new System.Windows.Forms.Label();
-            this.con1Label = new System.Windows.Forms.Label();
-            this.date1Label = new System.Windows.Forms.Label();
+            this.con1 = new System.Windows.Forms.Label();
+            this.date1 = new System.Windows.Forms.Label();
             this.min1 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.max1 = new System.Windows.Forms.Label();
@@ -94,29 +94,29 @@
             this.timeLabel.TabIndex = 77;
             this.timeLabel.Text = "time";
             // 
-            // con3Label
+            // con3
             // 
-            this.con3Label.AutoSize = true;
-            this.con3Label.BackColor = System.Drawing.Color.Transparent;
-            this.con3Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.con3Label.ForeColor = System.Drawing.Color.White;
-            this.con3Label.Location = new System.Drawing.Point(106, 309);
-            this.con3Label.Name = "con3Label";
-            this.con3Label.Size = new System.Drawing.Size(110, 26);
-            this.con3Label.TabIndex = 85;
-            this.con3Label.Text = "conditions";
+            this.con3.AutoSize = true;
+            this.con3.BackColor = System.Drawing.Color.Transparent;
+            this.con3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.con3.ForeColor = System.Drawing.Color.White;
+            this.con3.Location = new System.Drawing.Point(106, 309);
+            this.con3.Name = "con3";
+            this.con3.Size = new System.Drawing.Size(110, 26);
+            this.con3.TabIndex = 85;
+            this.con3.Text = "conditions";
             // 
-            // date3Label
+            // date3
             // 
-            this.date3Label.AutoSize = true;
-            this.date3Label.BackColor = System.Drawing.Color.Transparent;
-            this.date3Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.date3Label.ForeColor = System.Drawing.Color.White;
-            this.date3Label.Location = new System.Drawing.Point(89, 283);
-            this.date3Label.Name = "date3Label";
-            this.date3Label.Size = new System.Drawing.Size(58, 26);
-            this.date3Label.TabIndex = 84;
-            this.date3Label.Text = "Date";
+            this.date3.AutoSize = true;
+            this.date3.BackColor = System.Drawing.Color.Transparent;
+            this.date3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.date3.ForeColor = System.Drawing.Color.White;
+            this.date3.Location = new System.Drawing.Point(89, 283);
+            this.date3.Name = "date3";
+            this.date3.Size = new System.Drawing.Size(58, 26);
+            this.date3.TabIndex = 84;
+            this.date3.Text = "Date";
             // 
             // cityLabel
             // 
@@ -192,29 +192,29 @@
             this.day2.TabIndex = 94;
             this.day2.Text = "day3Image";
             // 
-            // con2Label
+            // con2
             // 
-            this.con2Label.AutoSize = true;
-            this.con2Label.BackColor = System.Drawing.Color.Transparent;
-            this.con2Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.con2Label.ForeColor = System.Drawing.Color.White;
-            this.con2Label.Location = new System.Drawing.Point(106, 235);
-            this.con2Label.Name = "con2Label";
-            this.con2Label.Size = new System.Drawing.Size(110, 26);
-            this.con2Label.TabIndex = 93;
-            this.con2Label.Text = "conditions";
+            this.con2.AutoSize = true;
+            this.con2.BackColor = System.Drawing.Color.Transparent;
+            this.con2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.con2.ForeColor = System.Drawing.Color.White;
+            this.con2.Location = new System.Drawing.Point(106, 235);
+            this.con2.Name = "con2";
+            this.con2.Size = new System.Drawing.Size(110, 26);
+            this.con2.TabIndex = 93;
+            this.con2.Text = "conditions";
             // 
-            // date2Label
+            // date2
             // 
-            this.date2Label.AutoSize = true;
-            this.date2Label.BackColor = System.Drawing.Color.Transparent;
-            this.date2Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.date2Label.ForeColor = System.Drawing.Color.White;
-            this.date2Label.Location = new System.Drawing.Point(89, 209);
-            this.date2Label.Name = "date2Label";
-            this.date2Label.Size = new System.Drawing.Size(58, 26);
-            this.date2Label.TabIndex = 92;
-            this.date2Label.Text = "Date";
+            this.date2.AutoSize = true;
+            this.date2.BackColor = System.Drawing.Color.Transparent;
+            this.date2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.date2.ForeColor = System.Drawing.Color.White;
+            this.date2.Location = new System.Drawing.Point(89, 209);
+            this.date2.Name = "date2";
+            this.date2.Size = new System.Drawing.Size(58, 26);
+            this.date2.TabIndex = 92;
+            this.date2.Text = "Date";
             // 
             // min2
             // 
@@ -269,29 +269,29 @@
             this.day1.TabIndex = 101;
             this.day1.Text = "day3Image";
             // 
-            // con1Label
+            // con1
             // 
-            this.con1Label.AutoSize = true;
-            this.con1Label.BackColor = System.Drawing.Color.Transparent;
-            this.con1Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.con1Label.ForeColor = System.Drawing.Color.White;
-            this.con1Label.Location = new System.Drawing.Point(106, 163);
-            this.con1Label.Name = "con1Label";
-            this.con1Label.Size = new System.Drawing.Size(110, 26);
-            this.con1Label.TabIndex = 100;
-            this.con1Label.Text = "conditions";
+            this.con1.AutoSize = true;
+            this.con1.BackColor = System.Drawing.Color.Transparent;
+            this.con1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.con1.ForeColor = System.Drawing.Color.White;
+            this.con1.Location = new System.Drawing.Point(106, 163);
+            this.con1.Name = "con1";
+            this.con1.Size = new System.Drawing.Size(110, 26);
+            this.con1.TabIndex = 100;
+            this.con1.Text = "conditions";
             // 
-            // date1Label
+            // date1
             // 
-            this.date1Label.AutoSize = true;
-            this.date1Label.BackColor = System.Drawing.Color.Transparent;
-            this.date1Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.date1Label.ForeColor = System.Drawing.Color.White;
-            this.date1Label.Location = new System.Drawing.Point(89, 137);
-            this.date1Label.Name = "date1Label";
-            this.date1Label.Size = new System.Drawing.Size(58, 26);
-            this.date1Label.TabIndex = 99;
-            this.date1Label.Text = "Date";
+            this.date1.AutoSize = true;
+            this.date1.BackColor = System.Drawing.Color.Transparent;
+            this.date1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.date1.ForeColor = System.Drawing.Color.White;
+            this.date1.Location = new System.Drawing.Point(89, 137);
+            this.date1.Name = "date1";
+            this.date1.Size = new System.Drawing.Size(58, 26);
+            this.date1.TabIndex = 99;
+            this.date1.Text = "Date";
             // 
             // min1
             // 
@@ -343,22 +343,22 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.Controls.Add(this.day1);
-            this.Controls.Add(this.con1Label);
-            this.Controls.Add(this.date1Label);
+            this.Controls.Add(this.con1);
+            this.Controls.Add(this.date1);
             this.Controls.Add(this.min1);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.max1);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.day2);
-            this.Controls.Add(this.con2Label);
-            this.Controls.Add(this.date2Label);
+            this.Controls.Add(this.con2);
+            this.Controls.Add(this.date2);
             this.Controls.Add(this.min2);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.max2);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.day3);
-            this.Controls.Add(this.con3Label);
-            this.Controls.Add(this.date3Label);
+            this.Controls.Add(this.con3);
+            this.Controls.Add(this.date3);
             this.Controls.Add(this.cityLabel);
             this.Controls.Add(this.min3);
             this.Controls.Add(this.minLabel);
@@ -379,8 +379,8 @@
         private System.Windows.Forms.Label forecastLabel;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label timeLabel;
-        private System.Windows.Forms.Label con3Label;
-        private System.Windows.Forms.Label date3Label;
+        private System.Windows.Forms.Label con3;
+        private System.Windows.Forms.Label date3;
         private System.Windows.Forms.Label cityLabel;
         private System.Windows.Forms.Label min3;
         private System.Windows.Forms.Label minLabel;
@@ -388,15 +388,15 @@
         private System.Windows.Forms.Label maxLabel;
         private System.Windows.Forms.Label day3;
         private System.Windows.Forms.Label day2;
-        private System.Windows.Forms.Label con2Label;
-        private System.Windows.Forms.Label date2Label;
+        private System.Windows.Forms.Label con2;
+        private System.Windows.Forms.Label date2;
         private System.Windows.Forms.Label min2;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label max2;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label day1;
-        private System.Windows.Forms.Label con1Label;
-        private System.Windows.Forms.Label date1Label;
+        private System.Windows.Forms.Label con1;
+        private System.Windows.Forms.Label date1;
         private System.Windows.Forms.Label min1;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label max1;
