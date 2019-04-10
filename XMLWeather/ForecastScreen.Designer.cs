@@ -133,8 +133,9 @@
             // min3
             // 
             this.min3.AutoSize = true;
-            this.min3.BackColor = System.Drawing.Color.White;
+            this.min3.BackColor = System.Drawing.Color.Transparent;
             this.min3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.min3.ForeColor = System.Drawing.Color.White;
             this.min3.Location = new System.Drawing.Point(266, 315);
             this.min3.Name = "min3";
             this.min3.Size = new System.Drawing.Size(37, 20);
@@ -155,8 +156,9 @@
             // max3
             // 
             this.max3.AutoSize = true;
-            this.max3.BackColor = System.Drawing.Color.White;
+            this.max3.BackColor = System.Drawing.Color.Transparent;
             this.max3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.max3.ForeColor = System.Drawing.Color.White;
             this.max3.Location = new System.Drawing.Point(266, 283);
             this.max3.Name = "max3";
             this.max3.Size = new System.Drawing.Size(41, 20);
@@ -219,8 +221,9 @@
             // min2
             // 
             this.min2.AutoSize = true;
-            this.min2.BackColor = System.Drawing.Color.White;
+            this.min2.BackColor = System.Drawing.Color.Transparent;
             this.min2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.min2.ForeColor = System.Drawing.Color.White;
             this.min2.Location = new System.Drawing.Point(266, 241);
             this.min2.Name = "min2";
             this.min2.Size = new System.Drawing.Size(37, 20);
@@ -241,8 +244,9 @@
             // max2
             // 
             this.max2.AutoSize = true;
-            this.max2.BackColor = System.Drawing.Color.White;
+            this.max2.BackColor = System.Drawing.Color.Transparent;
             this.max2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.max2.ForeColor = System.Drawing.Color.White;
             this.max2.Location = new System.Drawing.Point(266, 209);
             this.max2.Name = "max2";
             this.max2.Size = new System.Drawing.Size(41, 20);
@@ -296,8 +300,9 @@
             // min1
             // 
             this.min1.AutoSize = true;
-            this.min1.BackColor = System.Drawing.Color.White;
+            this.min1.BackColor = System.Drawing.Color.Transparent;
             this.min1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.min1.ForeColor = System.Drawing.Color.White;
             this.min1.Location = new System.Drawing.Point(266, 169);
             this.min1.Name = "min1";
             this.min1.Size = new System.Drawing.Size(37, 20);
@@ -318,8 +323,9 @@
             // max1
             // 
             this.max1.AutoSize = true;
-            this.max1.BackColor = System.Drawing.Color.White;
+            this.max1.BackColor = System.Drawing.Color.Transparent;
             this.max1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.max1.ForeColor = System.Drawing.Color.White;
             this.max1.Location = new System.Drawing.Point(266, 137);
             this.max1.Name = "max1";
             this.max1.Size = new System.Drawing.Size(41, 20);
@@ -341,7 +347,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Black;
+            this.BackColor = System.Drawing.Color.Gray;
             this.Controls.Add(this.day1);
             this.Controls.Add(this.con1);
             this.Controls.Add(this.date1);

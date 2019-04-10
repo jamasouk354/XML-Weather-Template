@@ -105,8 +105,9 @@
             // minOutput
             // 
             this.minOutput.AutoSize = true;
-            this.minOutput.BackColor = System.Drawing.Color.White;
+            this.minOutput.BackColor = System.Drawing.Color.Transparent;
             this.minOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.minOutput.ForeColor = System.Drawing.Color.White;
             this.minOutput.Location = new System.Drawing.Point(224, 309);
             this.minOutput.Name = "minOutput";
             this.minOutput.Size = new System.Drawing.Size(63, 31);
@@ -118,7 +119,7 @@
             this.minLabel.AutoSize = true;
             this.minLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.minLabel.ForeColor = System.Drawing.Color.White;
-            this.minLabel.Location = new System.Drawing.Point(136, 309);
+            this.minLabel.Location = new System.Drawing.Point(161, 309);
             this.minLabel.Name = "minLabel";
             this.minLabel.Size = new System.Drawing.Size(57, 31);
             this.minLabel.TabIndex = 88;
@@ -127,8 +128,9 @@
             // maxOutput
             // 
             this.maxOutput.AutoSize = true;
-            this.maxOutput.BackColor = System.Drawing.Color.White;
+            this.maxOutput.BackColor = System.Drawing.Color.Transparent;
             this.maxOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.maxOutput.ForeColor = System.Drawing.Color.White;
             this.maxOutput.Location = new System.Drawing.Point(224, 257);
             this.maxOutput.Name = "maxOutput";
             this.maxOutput.Size = new System.Drawing.Size(70, 31);
@@ -140,7 +142,7 @@
             this.maxLabel.AutoSize = true;
             this.maxLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.maxLabel.ForeColor = System.Drawing.Color.White;
-            this.maxLabel.Location = new System.Drawing.Point(136, 257);
+            this.maxLabel.Location = new System.Drawing.Point(154, 257);
             this.maxLabel.Name = "maxLabel";
             this.maxLabel.Size = new System.Drawing.Size(64, 31);
             this.maxLabel.TabIndex = 86;
@@ -160,7 +162,7 @@
             this.tempLabel.AutoSize = true;
             this.tempLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tempLabel.ForeColor = System.Drawing.Color.White;
-            this.tempLabel.Location = new System.Drawing.Point(185, 133);
+            this.tempLabel.Location = new System.Drawing.Point(155, 132);
             this.tempLabel.Name = "tempLabel";
             this.tempLabel.Size = new System.Drawing.Size(78, 73);
             this.tempLabel.TabIndex = 103;
@@ -170,7 +172,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Black;
+            this.BackColor = System.Drawing.Color.Gray;
             this.Controls.Add(this.tempLabel);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.conditionLabel);
