@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label3 = new System.Windows.Forms.Label();
+            this.currentLabel = new System.Windows.Forms.Label();
             this.forecastLabel = new System.Windows.Forms.Label();
             this.timeLabel = new System.Windows.Forms.Label();
             this.conditionLabel = new System.Windows.Forms.Label();
@@ -41,17 +41,17 @@
             this.tempLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label3
+            // currentLabel
             // 
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(0, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(102, 45);
-            this.label3.TabIndex = 40;
-            this.label3.Text = "Today";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.currentLabel.BackColor = System.Drawing.Color.Transparent;
+            this.currentLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.currentLabel.ForeColor = System.Drawing.Color.White;
+            this.currentLabel.Location = new System.Drawing.Point(0, 0);
+            this.currentLabel.Name = "currentLabel";
+            this.currentLabel.Size = new System.Drawing.Size(102, 45);
+            this.currentLabel.TabIndex = 40;
+            this.currentLabel.Text = "Today";
+            this.currentLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // forecastLabel
             // 
@@ -72,7 +72,7 @@
             this.timeLabel.BackColor = System.Drawing.Color.Transparent;
             this.timeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.timeLabel.ForeColor = System.Drawing.Color.White;
-            this.timeLabel.Location = new System.Drawing.Point(250, 10);
+            this.timeLabel.Location = new System.Drawing.Point(225, 10);
             this.timeLabel.Name = "timeLabel";
             this.timeLabel.Size = new System.Drawing.Size(54, 26);
             this.timeLabel.TabIndex = 78;
@@ -82,11 +82,11 @@
             // 
             this.conditionLabel.AutoSize = true;
             this.conditionLabel.BackColor = System.Drawing.Color.Transparent;
-            this.conditionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.conditionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.conditionLabel.ForeColor = System.Drawing.Color.White;
             this.conditionLabel.Location = new System.Drawing.Point(20, 262);
             this.conditionLabel.Name = "conditionLabel";
-            this.conditionLabel.Size = new System.Drawing.Size(110, 26);
+            this.conditionLabel.Size = new System.Drawing.Size(81, 20);
             this.conditionLabel.TabIndex = 92;
             this.conditionLabel.Text = "conditions";
             // 
@@ -108,7 +108,7 @@
             this.minOutput.BackColor = System.Drawing.Color.Transparent;
             this.minOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.minOutput.ForeColor = System.Drawing.Color.White;
-            this.minOutput.Location = new System.Drawing.Point(224, 309);
+            this.minOutput.Location = new System.Drawing.Point(249, 307);
             this.minOutput.Name = "minOutput";
             this.minOutput.Size = new System.Drawing.Size(63, 31);
             this.minOutput.TabIndex = 89;
@@ -117,9 +117,10 @@
             // minLabel
             // 
             this.minLabel.AutoSize = true;
+            this.minLabel.BackColor = System.Drawing.Color.Transparent;
             this.minLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.minLabel.ForeColor = System.Drawing.Color.White;
-            this.minLabel.Location = new System.Drawing.Point(161, 309);
+            this.minLabel.Location = new System.Drawing.Point(186, 307);
             this.minLabel.Name = "minLabel";
             this.minLabel.Size = new System.Drawing.Size(57, 31);
             this.minLabel.TabIndex = 88;
@@ -131,7 +132,7 @@
             this.maxOutput.BackColor = System.Drawing.Color.Transparent;
             this.maxOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.maxOutput.ForeColor = System.Drawing.Color.White;
-            this.maxOutput.Location = new System.Drawing.Point(224, 257);
+            this.maxOutput.Location = new System.Drawing.Point(249, 270);
             this.maxOutput.Name = "maxOutput";
             this.maxOutput.Size = new System.Drawing.Size(70, 31);
             this.maxOutput.TabIndex = 87;
@@ -140,9 +141,10 @@
             // maxLabel
             // 
             this.maxLabel.AutoSize = true;
+            this.maxLabel.BackColor = System.Drawing.Color.Transparent;
             this.maxLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.maxLabel.ForeColor = System.Drawing.Color.White;
-            this.maxLabel.Location = new System.Drawing.Point(154, 257);
+            this.maxLabel.Location = new System.Drawing.Point(179, 270);
             this.maxLabel.Name = "maxLabel";
             this.maxLabel.Size = new System.Drawing.Size(64, 31);
             this.maxLabel.TabIndex = 86;
@@ -151,20 +153,21 @@
             // label10
             // 
             this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.Location = new System.Drawing.Point(49, 119);
+            this.label10.Location = new System.Drawing.Point(21, 119);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(100, 100);
+            this.label10.Size = new System.Drawing.Size(125, 125);
             this.label10.TabIndex = 102;
             this.label10.Text = "day3Image";
             // 
             // tempLabel
             // 
             this.tempLabel.AutoSize = true;
-            this.tempLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tempLabel.BackColor = System.Drawing.Color.Transparent;
+            this.tempLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tempLabel.ForeColor = System.Drawing.Color.White;
             this.tempLabel.Location = new System.Drawing.Point(155, 132);
             this.tempLabel.Name = "tempLabel";
-            this.tempLabel.Size = new System.Drawing.Size(78, 73);
+            this.tempLabel.Size = new System.Drawing.Size(114, 108);
             this.tempLabel.TabIndex = 103;
             this.tempLabel.Text = "C";
             // 
@@ -183,7 +186,7 @@
             this.Controls.Add(this.maxLabel);
             this.Controls.Add(this.timeLabel);
             this.Controls.Add(this.forecastLabel);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.currentLabel);
             this.DoubleBuffered = true;
             this.Name = "CurrentScreen";
             this.Size = new System.Drawing.Size(340, 365);
@@ -193,7 +196,7 @@
         }
 
         #endregion
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label currentLabel;
         private System.Windows.Forms.Label forecastLabel;
         private System.Windows.Forms.Label timeLabel;
         private System.Windows.Forms.Label conditionLabel;

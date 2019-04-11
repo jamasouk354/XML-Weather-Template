@@ -40,8 +40,8 @@ namespace XMLWeather
                 reader.ReadToFollowing("temperature");
                 d.tempLow = reader.GetAttribute("min");
                 d.tempHigh = reader.GetAttribute("max");
-                reader.ReadToFollowing("symbol");
-                d.condition = reader.GetAttribute("number");
+                //reader.ReadToFollowing("symbol");
+                //d.condition = reader.GetAttribute("number");
                 //TODO: if day object not null add to the days list
                 //if (Convert.ToInt16(d.condition) >= 200 && Convert.ToInt16(d.condition) <= 232) { d.condition = "Thunderstorm"; }
                 //if (Convert.ToInt16(d.condition) >= 300 && Convert.ToInt16(d.condition) <= 321) { d.condition = "Drizzle"; }
@@ -68,7 +68,7 @@ namespace XMLWeather
             reader.ReadToFollowing("temperature");
             days[0].currentTemp = reader.GetAttribute("value");
             reader.ReadToFollowing("weather");
-            days[0].location = reader.GetAttribute("value");
+            days[0].condition = reader.GetAttribute("value");
         }
     }
 }
