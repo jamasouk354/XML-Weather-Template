@@ -37,7 +37,7 @@
             this.minLabel = new System.Windows.Forms.Label();
             this.maxOutput = new System.Windows.Forms.Label();
             this.maxLabel = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
+            this.iconLabel = new System.Windows.Forms.Label();
             this.tempLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -150,24 +150,24 @@
             this.maxLabel.TabIndex = 86;
             this.maxLabel.Text = "Max";
             // 
-            // label10
+            // iconLabel
             // 
-            this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.Location = new System.Drawing.Point(21, 119);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(125, 125);
-            this.label10.TabIndex = 102;
-            this.label10.Text = "day3Image";
+            this.iconLabel.BackColor = System.Drawing.Color.Transparent;
+            this.iconLabel.Location = new System.Drawing.Point(21, 119);
+            this.iconLabel.Name = "iconLabel";
+            this.iconLabel.Size = new System.Drawing.Size(125, 125);
+            this.iconLabel.TabIndex = 102;
+            this.iconLabel.Text = "day3Image";
             // 
             // tempLabel
             // 
             this.tempLabel.AutoSize = true;
             this.tempLabel.BackColor = System.Drawing.Color.Transparent;
-            this.tempLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tempLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 63.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tempLabel.ForeColor = System.Drawing.Color.White;
-            this.tempLabel.Location = new System.Drawing.Point(155, 132);
+            this.tempLabel.Location = new System.Drawing.Point(129, 138);
             this.tempLabel.Name = "tempLabel";
-            this.tempLabel.Size = new System.Drawing.Size(114, 108);
+            this.tempLabel.Size = new System.Drawing.Size(101, 96);
             this.tempLabel.TabIndex = 103;
             this.tempLabel.Text = "C";
             // 
@@ -177,7 +177,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gray;
             this.Controls.Add(this.tempLabel);
-            this.Controls.Add(this.label10);
+            this.Controls.Add(this.iconLabel);
             this.Controls.Add(this.conditionLabel);
             this.Controls.Add(this.cityOutput);
             this.Controls.Add(this.minOutput);
@@ -205,7 +205,7 @@
         private System.Windows.Forms.Label minLabel;
         private System.Windows.Forms.Label maxOutput;
         private System.Windows.Forms.Label maxLabel;
-        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label iconLabel;
         private System.Windows.Forms.Label tempLabel;
     }
 }

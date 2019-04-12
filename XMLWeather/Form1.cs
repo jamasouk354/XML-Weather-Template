@@ -40,16 +40,11 @@ namespace XMLWeather
                 reader.ReadToFollowing("temperature");
                 d.tempLow = reader.GetAttribute("min");
                 d.tempHigh = reader.GetAttribute("max");
-                //reader.ReadToFollowing("symbol");
-                //d.condition = reader.GetAttribute("number");
+                reader.ReadToFollowing("symbol");
+                d.condition = Convert.ToDouble(reader.GetAttribute("number")).ToString("000");
+                
                 //TODO: if day object not null add to the days list
-                //if (Convert.ToInt16(d.condition) >= 200 && Convert.ToInt16(d.condition) <= 232) { d.condition = "Thunderstorm"; }
-                //if (Convert.ToInt16(d.condition) >= 300 && Convert.ToInt16(d.condition) <= 321) { d.condition = "Drizzle"; }
-                //if (Convert.ToInt16(d.condition) >= 500 && Convert.ToInt16(d.condition) <= 531) { d.condition = "Rain"; }
-                //if (Convert.ToInt16(d.condition) >= 600 && Convert.ToInt16(d.condition) <= 622) { d.condition = "Snow"; }
-                //if (Convert.ToInt16(d.condition) >= 701 && Convert.ToInt16(d.condition) <= 781) { d.condition = "Atmosphere"; }
-                //if (Convert.ToInt16(d.condition) == 800) { d.condition = "Clear"; }
-                //if (Convert.ToInt16(d.condition) >= 801 && Convert.ToInt16(d.condition) <= 804) { d.condition = "Clouds"; }
+                
                 if (d.date != null)
                 {
                     days.Add(d);
@@ -68,7 +63,7 @@ namespace XMLWeather
             reader.ReadToFollowing("temperature");
             days[0].currentTemp = reader.GetAttribute("value");
             reader.ReadToFollowing("weather");
-            days[0].condition = reader.GetAttribute("value");
+            days[0].condition = reader.GetAttribute("number");
         }
     }
 }
