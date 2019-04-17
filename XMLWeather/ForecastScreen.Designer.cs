@@ -183,7 +183,6 @@
             this.day3.Name = "day3";
             this.day3.Size = new System.Drawing.Size(50, 50);
             this.day3.TabIndex = 87;
-            this.day3.Text = "day3Image";
             // 
             // day2
             // 
@@ -192,7 +191,6 @@
             this.day2.Name = "day2";
             this.day2.Size = new System.Drawing.Size(50, 50);
             this.day2.TabIndex = 94;
-            this.day2.Text = "day3Image";
             // 
             // con2
             // 
@@ -271,7 +269,6 @@
             this.day1.Name = "day1";
             this.day1.Size = new System.Drawing.Size(50, 50);
             this.day1.TabIndex = 101;
-            this.day1.Text = "day3Image";
             // 
             // con1
             // 

@@ -157,7 +157,6 @@
             this.iconLabel.Name = "iconLabel";
             this.iconLabel.Size = new System.Drawing.Size(125, 125);
             this.iconLabel.TabIndex = 102;
-            this.iconLabel.Text = "day3Image";
             // 
             // tempLabel
             // 

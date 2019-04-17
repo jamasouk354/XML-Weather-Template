@@ -71,16 +71,13 @@ namespace XMLWeather
             min1.Text = Convert.ToDouble(Form1.days[1].tempLow).ToString("0.°C");
             max1.Text = Convert.ToDouble(Form1.days[1].tempHigh).ToString("0.°C");
             con1.Text = Form1.days[1].condition;
-            date1.Text = DateTime.Now.AddDays(2).ToString();
             date1.Text = Form1.days[1].date;
-            date1.Text = DateTime.Now.ToString("dddd");
 
             
             min2.Text = Convert.ToDouble(Form1.days[2].tempLow).ToString("0.°C");
             max2.Text = Convert.ToDouble(Form1.days[2].tempHigh).ToString("0.°C");
             con2.Text = Form1.days[2].condition;
             date2.Text = Form1.days[2].date;
-            date2.Text = DateTime.Now.AddDays(1).ToString();
 
 
             
@@ -88,7 +85,6 @@ namespace XMLWeather
             max3.Text = Convert.ToDouble(Form1.days[3].tempHigh).ToString("0.°C");
             con3.Text = Form1.days[3].condition;
             date3.Text = Form1.days[3].date;
-            date3.Text = DateTime.Now.AddDays(1).ToString();
 
             timeLabel.Text = DateTime.Now.ToString("hh:mm tt");
         }
