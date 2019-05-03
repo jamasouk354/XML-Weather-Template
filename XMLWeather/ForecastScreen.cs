@@ -16,7 +16,7 @@ namespace XMLWeather
             InitializeComponent();
             displayForecast();
         }
-
+//test
         public void displayForecast()
         {
             for (int i = 1; i < Form1.days.Count; i++)
